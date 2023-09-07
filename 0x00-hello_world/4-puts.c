@@ -1,14 +1,12 @@
-/**
- *  This programs uses the puts function
- *  to print a statement
- */
-
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ * Description: Uses the puts function to print a statement.
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-
-	/* Display results*/
 	puts("Programming is like building a multilingual puzzle");
 
 	return (0);
