@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	int digit = 0;
+	int digit;
 
-	while (digit < 10)
+	for (digit = 0; digit < 10; digit++)
 	{
 		printf("%i", digit);
-		digit++;
 	}
+
 	printf("\n");
 
 	return (0);
