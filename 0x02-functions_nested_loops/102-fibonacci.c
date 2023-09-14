@@ -14,8 +14,8 @@ int main(void)
 
 	printf("%lu, %lu", fib1, fib2);
 
-    	for (i = 3; i <= n; i++)
-	{	
+	for (i = 3; i <= n; i++)
+	{
 		next = fib1 + fib2;
 		printf(", %lu", next);
 		fib1 = fib2;
@@ -24,5 +24,5 @@ int main(void)
 
 	printf("\n");
 
-	return 0;
+	return (0);
 }
