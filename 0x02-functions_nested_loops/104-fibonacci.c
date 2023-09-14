@@ -10,6 +10,7 @@ int main(void)
 {
 	unsigned int fib1 = 1, fib2 = 2, next;
 	int count = 2;
+	int numbers = 10;
 
 	printf("%u, %u", fib1, fib2);
 
@@ -17,12 +18,17 @@ int main(void)
 	{
 		next = fib1 + fib2;
 
-		printf(", %u", next);
+		printf("%u, ", next);
 
 		fib1 = fib2;
 		fib2 = next;
 
 		count++;
+
+		if (count % numbers == 0)
+		{
+			printf("\n");
+		}
 	}
 
 	printf("\n");
