@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - Checks if a character is a digit
+ * _isdigit - Checks if a character is a digit
  *
  * @c: The character to check
  *
@@ -15,5 +15,5 @@ int _isdigit(int c)
 		return (1);
 	}
 
-	return(0);
+	return (0);
 }
