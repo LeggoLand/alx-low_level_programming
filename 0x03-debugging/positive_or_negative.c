@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+  * main - Prints whether the number stored is positive or negative
+  */
+
 void positive_or_negative(int i)
 {
 	if (i > 0)
